@@ -1,0 +1,34 @@
+{
+  "name": "emchallenge_buk",
+  "version": "1.0.0",
+  "description": "EM Challenge para Buk Finanzas",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daniel weise busatto",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/api": "^6.20.6",
+    "@bull-board/express": "^6.20.6",
+    "axios": "^1.14.0",
+    "bull": "^4.16.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "http-cookie-agent": "^7.0.3",
+    "pg": "^8.20.0",
+    "tough-cookie": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.15.9",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "@types/pg": "^8.20.0",
+    "@types/tough-cookie": "^4.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
